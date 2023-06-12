@@ -1,0 +1,22 @@
+@import url("../../App.css");
+
+.Container__greeting {
+    margin: 10% auto 5%;
+}
+
+.Greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Greeting__text {
+    margin-left: 5%;
+    padding: 0;
+}
+
+.Dino__img {
+    max-width: 25%;
+    height: auto;
+    width: auto;
+}

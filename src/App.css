@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;  
+  font-size: 4vw;
+  line-height: 1;
+}
+
+.Container {
+  margin: auto; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+h1{
+  font-size: 6vw; 
+}
+h4 {
+  font-size: 4vw;
+  margin: 0;
+  text-align: center;
+}
+
+.Button {
+  display: flex;
+  margin: auto;
+  padding: 6px;
+  font-size: 22vw;
+}
+.Button span {
+  padding: 1vw;
+}
+
+.Button__position{
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .Button  span{
+    font-size: 9vw;  
+  }
+}

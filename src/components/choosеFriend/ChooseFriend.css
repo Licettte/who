@@ -1,0 +1,25 @@
+.Container__choose {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.amount__love {
+    margin: auto;
+}
+
+.Person {
+    margin: auto;
+}
+
+.Status {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 134px;
+}
+
+.Amount__love {
+    margin: auto;
+}
