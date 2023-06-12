@@ -1,12 +1,6 @@
 import bridge from '@vkontakte/vk-bridge';
 import { useState, useEffect, useRef } from 'react';
-import {
-    Panel,
-    Button,
-    Div,
-    Avatar,
-    HorizontalCell
-} from '@vkontakte/vkui';
+import { Panel, Button, Div, Avatar, HorizontalCell } from '@vkontakte/vkui';
 import { ProgressBar } from '../progressBar/ProgressBar.js';
 import './ChooseFriend.css';
 
@@ -17,7 +11,6 @@ export function ChooseFriend(id) {
     const [disabled, setDisabled] = useState(false);
     const [status, setStatus] = useState(null);
 
-
     const fetchFriends = async () => {
 
         try {
@@ -25,14 +18,11 @@ export function ChooseFriend(id) {
             setDisabled(false);
             setStatus('');
             setCompleted(0);
-            setTimeout(() => {
-                setFriend(friend.users[0]);
-            }, 300);
+            setFriend(friend.users[0]);
         } catch (error) {
             console.log(error);
         }
     };
-
 
     const loader = () => {
         setDisabled(true);
@@ -77,7 +67,7 @@ export function ChooseFriend(id) {
                     {validName ? null : (
                         <>
                             <Div className='Amount__love'>
-                                <h4> {`насколько, ${name} любит котиков`}</h4>
+                                <h4> {`насколько ${name} любит котиков`}</h4>
                             </Div>
 
                             <Div className='Person'>

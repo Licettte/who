@@ -19,7 +19,7 @@ const Home = ({ id, fetchedUser, go }) => {
 							<Div className='Greeting__text'>
 								<p className='q'> {`привет, ${fetchedUser.first_name}`}</p>
 								<p className='q'> сегодня поговорим о важном...</p>
-								<p className='q'> насколько твои друзья любят котиков</p>
+								<p className='q'> насколько твои друзья любят тираннозавров</p>
 							</Div>
 						)}
 					</Div>
