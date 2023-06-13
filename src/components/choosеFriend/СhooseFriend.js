@@ -67,7 +67,7 @@ export function ChooseFriend(id) {
                     {validName ? null : (
                         <>
                             <Div className='Amount__love'>
-                                <h4> {`насколько ${name} любит котиков`}</h4>
+                                <h4> {`насколько ${name} любит тираннозавров`}</h4>
                             </Div>
 
                             <Div className='Person'>
