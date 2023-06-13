@@ -48,7 +48,7 @@ const App = () => {
 						<SplitCol maxWidth={MAX_WIDTH}>
 							<View activePanel={activePanel} popout={popout}>
 								<Home id={ROUTES.HOME} fetchedUser={fetchedUser} go={go} />
-								<ChooseFriend id={ROUTES.CHOOSEFRIEND} go={go} activePanel={activePanel} />
+								<ChooseFriend id={ROUTES.CHOOSEFRIEND} activePanel={activePanel} />
 							</View>
 						</SplitCol>
 					</SplitLayout>
